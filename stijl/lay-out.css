@@ -9,14 +9,33 @@ font-size:12px;
 font-weight:normal;
 text-decoration:none;
 overflow:auto;
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F0F0F0 60%, #008AD9 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F0F0F0 60%, #008AD9 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F0F0F0 60%, #008AD9 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(0.6, #F0F0F0), color-stop(1, #008AD9));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F0F0F0 60%, #008AD9 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to top, #FFFFFF 0%, #F0F0F0 60%, #008AD9 100%);
 }
 
 
-#wrapper{width:1200px; margin:0 auto; color:black; overflow:hidden;}
- #header{width:100%;height:300px;}
-  #logo{width:100%;height:160px;}
-  #navigatie{}
-   #NavButton{}
- #content{}
+#wrapper{width:1200px; height:1000px; margin:0 auto; color:black; overflow:hidden; border:1px solid red;}
+ #header{width:100%;height:210px; border:1px solid blue;}
+  #logo{width:100%;height:160px; border: 1px solid green;}
+  #navigatie{width:90%; height:40px; margin:0 auto; background-color:#2e3192; border-radius: 28px; -moz-border-radius: 28px; -webkit-border-radius: 28px; border: 0px solid #800000;}
+   #NavButton{width:14.2%; height:30px; float:left; color:white; text-align:center; padding-top:10px;}
+   #NavButton:hover{font-size:20px; font-weight:bold;}
+   
+ #content{width:100%; height:800px;}
  #footer{}
  
