@@ -21,14 +21,14 @@
 				<div id="navigatie">
 					
 					<!-- NavButtons -->
-					<div id="NavButton"> </div>
-					<div id="NavButton"> </div>
-					<div id="NavButton"> </div>
-					<div id="NavButton"> </div>
-					<div id="NavButton"> </div>
-					<div id="NavButton"> </div>
-					<div id="NavButton"> </div>
-					<div id="NavButton"> </div>
+					<div id="NavButton">Welkom </div>
+					<div id="NavButton">Behandelaanbod </div>
+					<div id="NavButton">Aanmeldproblematiek </div>
+					<div id="NavButton">Tarieven en Annuleren </div>
+					<div id="NavButton">Aanmelden </div>
+					<div id="NavButton">Kennismakne </div>
+					<div id="NavButton">Contact </div>
+					<div id="NavButton">Formulieren </div>
 				</div>
 				
 			</div>
